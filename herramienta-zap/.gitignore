@@ -1,0 +1,3 @@
+# Reports can contain target hostnames, paths, and security evidence.
+/zap-report.json
+/scan-runs/

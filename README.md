@@ -1,17 +1,8 @@
-# Publicar el portafolio con GitHub Pages
+# Portafolio profesional · Geovany Manco
 
-## Archivos del sitio
+Sitio profesional estático publicado con GitHub Pages. Presenta experiencia en infraestructura TI, ciberseguridad, operaciones y PMO.
 
-- `index.html`: página principal.
-- `retrato-profesional.webp`: foto optimizada para la web.
+- Sitio: https://thempler.github.io/geovany-manco/
+- Código de la herramienta local de análisis web: [herramienta-zap](herramienta-zap/README.md)
 
-## Pasos
-
-1. En GitHub, crea un repositorio público llamado `geovany-manco` bajo la cuenta `thempler`.
-2. En el repositorio, selecciona **Add file → Upload files** y sube `index.html` y `retrato-profesional.webp` desde esta carpeta.
-3. Confirma con **Commit changes** en la rama `main`.
-4. Abre **Settings → Pages**.
-5. En **Build and deployment**, selecciona **Deploy from a branch**, luego `main` y `/(root)`, y pulsa **Save**.
-6. Cuando termine el despliegue, abre `https://thempler.github.io/geovany-manco/`.
-
-GitHub Pages publica el sitio en internet. Antes de hacerlo, confirma que quieres mostrar públicamente el correo y los teléfonos que figuran en la página.
+La herramienta usa OWASP ZAP Baseline localmente con Docker y PowerShell. GitHub Pages solo publica el portafolio y el código; no ejecuta el dashboard ni los análisis.
